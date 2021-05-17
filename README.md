@@ -12,3 +12,9 @@ GCN | - | 83.7&pm;1.7 | 75.7&pm;3.2 | 79.1&pm;3.1 | 69.5&pm;7.4 | **81.7&pm;1.6*
 DIFFPOOL |  - | - | 76.3 | 80.6 | 62.5 | 75.5 | - | - 
 TGCN | **70.2&pm;5.7** | **84.6&pm;1.4** | **79.4&pm;2.8 **| **82.2&pm;3.2** | 63.3&pm;5.1 | 76.7&pm;1.6 | **77.9&pm;3.9** | **53.9&pm;3.4**
 
+## Hyper-parameters selection
+The hyper-parameters of the model were selected by using a limited grid search, where the explored sets of values do change based on the considered dataset.
+Due to the high time requirements of performing an extensive grid search, we decided to limit the number of values taken into account for each hyper-parameter, by performing some preliminary tests. Here we report the sets of hyper-parameters values used for model selection via grid search. As evaluation measure, we used the average accuracy computed over the 10-fold cross-validation on the validation sets, and we used the same set of selected hyper-parameters for each fold. For what concerns the selection of the epoch, it was performed for each fold independently based on the accuracy value on the validation set.
+
+Dataset/parameter | nuerons per layer | learning rate | weight decay | drop out| batch size | readout(\#layers [dims])
+----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
