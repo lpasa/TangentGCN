@@ -16,5 +16,6 @@ TGCN | **70.2&pm;5.7** | **84.6&pm;1.4** | **79.4&pm;2.8 **| **82.2&pm;3.2** | 6
 The hyper-parameters of the model were selected by using a limited grid search, where the explored sets of values do change based on the considered dataset.
 Due to the high time requirements of performing an extensive grid search, we decided to limit the number of values taken into account for each hyper-parameter, by performing some preliminary tests. Here we report the sets of hyper-parameters values used for model selection via grid search. As evaluation measure, we used the average accuracy computed over the 10-fold cross-validation on the validation sets, and we used the same set of selected hyper-parameters for each fold. For what concerns the selection of the epoch, it was performed for each fold independently based on the accuracy value on the validation set.
 
-Dataset/parameter | nuerons per layer | learning rate | weight decay | drop out| batch size | readout(\#layers [dims])
------------------ | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+Dataset/parameter | m | k | learning rate | dropout | weight decay | batch size | readout(\#layers [dims])
+----------------- | ----------------- | ----------------- | ----------------- |  ----------------- | ----------------- | ----------------- | ----------------- |
+PTC | 10,30 | 2,6 | 0.0005, 0.0001 | 0,0.5 | 5*10^-4, 5*10^5 | 16,32 | 1 [m/2], 2 [m*2,m]
