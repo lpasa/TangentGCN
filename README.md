@@ -1,5 +1,9 @@
 # Tangent Graph Neural Network
 
+Pasa Luca, Nicolò Navarin, and Alessandro Sperduti. "Tangent Graph Convolutional Network.". 
+European Symposium on Artificial Neural Networks, Computational  Intelligence and Machine Learning (ESANN 2021).
+Full paper che be donwload [here](https://www.esann.org/sites/default/files/proceedings/2021/ES2021-143.pdf)
+
 ## Experimental Results
 
 The results were obtained by exploiting As validation test methodology we decided to follow the method proposed in [A Fair Comparison of Graph Neural Networks for Graph Classification](https://openreview.net/forum?id=HygDF6NFPB), that in our opinion, turns out to be the fairest. For this reason, in the paper the results reported in [How Powerful are Graph Neural Networks?](https://openreview.net/forum?id=ryGs6iA5Km), [Are powerful graph neural nets necessary? a dissection on graph classification](https://openreview.net/forum?id=BJxQxeBYwH) and [Hierarchical graph representation learning with differentiable pooling](https://dl.acm.org/doi/10.5555/3327345.3327389) are not considered in our comparison since the model selection strategy is different from the one we adopted and this makes the results not comparable. For the sake of completeness, we also report (and compare) in the table below the results obtained by evaluating the TGCN method with the validation policy used in these papers.
