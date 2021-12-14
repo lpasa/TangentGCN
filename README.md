@@ -1,6 +1,6 @@
 # Tangent Graph Neural Network
 
-Pasa Luca, Nicolò Navarin, and Alessandro Sperduti. "Tangent Graph Convolutional Network.".
+Pasa Luca, Nicolò Navarin, and Alessandro Sperduti. "Tangent Graph Convolutional Network".
 
 European Symposium on Artificial Neural Networks, Computational  Intelligence and Machine Learning (ESANN 2021).
 
