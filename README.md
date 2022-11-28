@@ -36,13 +36,13 @@ IMDB-M | 75,120 | 10,50 | 0.0001,0.00005 | 0,0.5 | 5 * 10^-4, 5 * 10^-5 | 16, 32
 
 If you find this code useful, please cite the following:
 
->@incollection{bacciu2020deep,
-  title={Deep learning for graphs},
-  author={Bacciu, Davide and Micheli, Alessio},
-  booktitle={Recent Trends in Learning From Data},
-  pages={99--127},
-  year={2020},
-  publisher={Springer}
+>@incollection{bacciu2020deep,\
+  title={Deep learning for graphs},\
+  author={Bacciu, Davide and Micheli, Alessio},\
+  booktitle={Recent Trends in Learning From Data},\
+  pages={99--127},\
+  year={2020},\
+  publisher={Springer}\
 }
 
 
