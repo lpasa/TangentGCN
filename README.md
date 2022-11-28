@@ -1,4 +1,4 @@
-# Tangent Graph Neural Network
+# Tangent Graph Convolutional Network
 
 Pasa Luca, Nicolò Navarin, and Alessandro Sperduti. "Tangent Graph Convolutional Network".
 
@@ -31,3 +31,19 @@ D&D | 50,80 | 10,30 | 0.0001, 0.00005 | 0,0.5 | 10^-3,10^-4 | 16, 32 | 0, 1 [m/2
 COLLAB | 20,40 | 10,20 | 0.0001,0.00005 | 0,0.5 | 5 * 10^-4, 5 * 10^-5 | 16, 32 | 0, 1 [m/2], 2 [m*2,m]
 IMDB-B | 75,120 | 10,50 | 0.0001,0.00005 | 0,0.5 | 5 * 10^-4, 5 * 10^-5 | 16, 32 | 0, 1 [m/2], 2 [m*2,m]
 IMDB-M | 75,120 | 10,50 | 0.0001,0.00005 | 0,0.5 | 5 * 10^-4, 5 * 10^-5 | 16, 32 | 0, 1 [m/2], 2 [m*2,m]
+
+##Citation
+
+If you find this code useful, please cite the following:
+
+>@incollection{bacciu2020deep,
+  title={Deep learning for graphs},
+  author={Bacciu, Davide and Micheli, Alessio},
+  booktitle={Recent Trends in Learning From Data},
+  pages={99--127},
+  year={2020},
+  publisher={Springer}
+}
+
+
+
